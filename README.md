@@ -5,7 +5,8 @@ TinyWebServer
 Linux下基于C++的轻量级Web服务器注释、修改版本.
 原项目来自:https://github.com/qinguoyi/TinyWebServer
 
-** 有什么特点？ **
+**有什么特点？** 
+
 * 使用 **线程池 + 非阻塞socket + epoll(ET和LT均实现) + 事件处理(Reactor和模拟Proactor均实现)** 的并发模型
 * 使用**状态机**解析HTTP请求报文，支持解析**GET和POST**请求
 * 访问服务器数据库实现web端用户**注册、登录**功能，可以请求播放服务器**图片和视频文件**
@@ -180,4 +181,5 @@ Demo演示
 Linux高性能服务器编程，游双著.
 
 源码来自：https://github.com/qinguoyi/TinyWebServer
+
 # webserver_jy
